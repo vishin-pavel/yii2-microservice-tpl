@@ -1,9 +1,9 @@
 <?php
 
-$params = require(__DIR__ . '../'.YII_ENV.'/params.php');
+$params = require(__DIR__ . '/../'.YII_ENV.'/params.php');
 $commonParams = require (__DIR__ . '/params.php');
 $params = array_merge($commonParams, $params);
-$db = require(__DIR__ . '../'.YII_ENV.'/db.php');
+$db = require(__DIR__ . '/../'.YII_ENV.'/db.php');
 
 $config = [
     'id' => 'basic-console',
